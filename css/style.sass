@@ -1,0 +1,139 @@
+@import 'normalize.css'
+@import 'bourbon/bourbon'
+@import 'neat/neat'
+@import 'webfonts.scss'
+
+$sans-serif: 'PFCentroSansPro-Regular', sans-serif
+$headline: 'PFCentroSerifPro-Regular', serif
+
+$primary-color: #640101
+$primary-background: #E3E0D6
+$dark-color: #212c33
+
+$base-font-color: #817868
+$base-headline-color: #2D2516
+
+$base-font-size: 1em
+
+$base-border-radius: 0.5em
+
+body
+  font-size: $base-font-size
+  line-height: 1.65em
+  background-color: $dark-color
+  margin: 0
+  font-family: $sans-serif
+  color: $base-font-color
+a
+  color: $primary-color
+  &:hover
+    color: $dark-color
+h1, h2, h3, h4, h5, h6
+  font-family: $headline
+  color: $base-headline-color
+  text-align: center
+  font-weight: 300
+  margin: 0
+h1
+  font-size: $base-font-size*2.5
+h2
+  margin-bottom: 1em
+
+.wrap
+  border-left: 2em solid $primary-color
+  border-right: 2em solid $primary-color
+  @include outer-container
+  margin: 0 auto
+  background-color: $primary-color
+  box-shadow: 0 0 20px black
+
+.row
+  margin-bottom: 3em
+  @include outer-container
+.colL, .colR
+  @include span-columns(6)
+
+header
+  position: relative
+  background-color: $primary-color
+  .logo-contain
+    padding: 1em
+    text-align: left
+    .logo
+      max-width: 15em
+nav
+  position: absolute
+  right: 0
+  top: 0
+  li
+    display: inline
+  a
+    padding: 1em 0em 1em 1em
+    font-size: 1.25em
+    text-transform: uppercase
+    text-decoration: none
+    display: inline-block
+    color: white
+    &:hover
+      color: $base-font-color
+section.hero
+  overflow: hidden
+  background: url(img/neubau.jpg)no-repeat,top,center
+  background-size: cover
+  position: relative
+  min-height: 500px
+  height: 500px
+  background-color: $dark-color
+  .lockup
+    @include transform(rotate(-20deg)skew(-20deg))
+    top: 15%
+    left: -1.5em
+    position: absolute
+    background-color: $primary-color
+    padding: 0 3em
+    border-bottom: 3em solid darken($primary-color,5)
+    border-right: 3em solid $dark-color
+    h1, p
+      color: white
+    h1
+      font-size: 2.5em
+      line-height: 1.75em
+    .text-change
+      font-family: $sans-serif
+section.content
+  @include outer-container
+  padding: 2em 4em
+  background-color: $primary-background
+
+.text-box
+  background-color: lighten($primary-background,10)
+  padding: 1em
+  border-radius: $base-border-radius
+  box-shadow: 0 6px 5px -5px $dark-color
+dl
+  margin: 0
+  text-align: center
+dt
+  background-color: lighten($primary-background,10)
+  &:first-of-type
+    border-radius: $base-border-radius $base-border-radius 0 0
+dd
+  background-color: lighten($primary-background,5)
+  font-size: 125%
+  padding: 0.5em 0
+  margin: 0
+  &:last-of-type
+    border-radius: 0 0 $base-border-radius $base-border-radius
+    margin: 0
+    box-shadow: 0 6px 5px -5px $dark-color
+
+
+footer
+  text-align: center
+  color: white
+  background-color: $primary-color
+  .logo-contain
+    padding: 1em
+    text-align: center
+    .logo
+      max-width: 10em

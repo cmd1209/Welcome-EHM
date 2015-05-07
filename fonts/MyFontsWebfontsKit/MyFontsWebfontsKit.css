@@ -1,0 +1,76 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 2984365, 2015-03-04T07:26:58-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: PFCentroSlabPro-Regular by Parachute
+ * URL: http://www.myfonts.com/fonts/parachute/pf-centro-slab-pro/regular/
+ * 
+ * Webfont: PFCentroSerifPro-Medium by Parachute
+ * URL: http://www.myfonts.com/fonts/parachute/pf-centro-serif-pro/medium/
+ * 
+ * Webfont: PFCentroSlabPro-Bold by Parachute
+ * URL: http://www.myfonts.com/fonts/parachute/pf-centro-slab-pro/bold/
+ * 
+ * Webfont: PFCentroSansPro-Medium by Parachute
+ * URL: http://www.myfonts.com/fonts/parachute/pf-centro-sans-pro/medium/
+ * 
+ * Webfont: PFCentroSlabPro-Medium by Parachute
+ * URL: http://www.myfonts.com/fonts/parachute/pf-centro-slab-pro/medium/
+ * 
+ * Webfont: PFCentroSerifPro-Bold by Parachute
+ * URL: http://www.myfonts.com/fonts/parachute/pf-centro-serif-pro/bold/
+ * 
+ * Webfont: PFCentroSansPro-Regular by Parachute
+ * URL: http://www.myfonts.com/fonts/parachute/pf-centro-sans-pro/regular/
+ * 
+ * Webfont: PFCentroSansPro-Bold by Parachute
+ * URL: http://www.myfonts.com/fonts/parachute/pf-centro-sans-pro/bold/
+ * 
+ * Webfont: PFCentroSerifPro-Regular by Parachute
+ * URL: http://www.myfonts.com/fonts/parachute/pf-centro-serif-pro/regular/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2984365
+ * Licensed pageviews: 500,000
+ * Webfonts copyright: Copyright (c) 2006 Parachute&#x00A8;, www.parachute.gr.  All rights reserved.
+ * 
+ * © 2015 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2d89ad");
+
+  
+@font-face {font-family: 'PFCentroSlabPro-Regular';src: url('webfonts/2D89AD_0_0.eot');src: url('webfonts/2D89AD_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2D89AD_0_0.woff2') format('woff2'),url('webfonts/2D89AD_0_0.woff') format('woff'),url('webfonts/2D89AD_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'PFCentroSerifPro-Medium';src: url('webfonts/2D89AD_1_0.eot');src: url('webfonts/2D89AD_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2D89AD_1_0.woff2') format('woff2'),url('webfonts/2D89AD_1_0.woff') format('woff'),url('webfonts/2D89AD_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'PFCentroSlabPro-Bold';src: url('webfonts/2D89AD_2_0.eot');src: url('webfonts/2D89AD_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2D89AD_2_0.woff2') format('woff2'),url('webfonts/2D89AD_2_0.woff') format('woff'),url('webfonts/2D89AD_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'PFCentroSansPro-Medium';src: url('webfonts/2D89AD_3_0.eot');src: url('webfonts/2D89AD_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2D89AD_3_0.woff2') format('woff2'),url('webfonts/2D89AD_3_0.woff') format('woff'),url('webfonts/2D89AD_3_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'PFCentroSlabPro-Medium';src: url('webfonts/2D89AD_4_0.eot');src: url('webfonts/2D89AD_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2D89AD_4_0.woff2') format('woff2'),url('webfonts/2D89AD_4_0.woff') format('woff'),url('webfonts/2D89AD_4_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'PFCentroSerifPro-Bold';src: url('webfonts/2D89AD_5_0.eot');src: url('webfonts/2D89AD_5_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2D89AD_5_0.woff2') format('woff2'),url('webfonts/2D89AD_5_0.woff') format('woff'),url('webfonts/2D89AD_5_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'PFCentroSansPro-Regular';src: url('webfonts/2D89AD_6_0.eot');src: url('webfonts/2D89AD_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2D89AD_6_0.woff2') format('woff2'),url('webfonts/2D89AD_6_0.woff') format('woff'),url('webfonts/2D89AD_6_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'PFCentroSansPro-Bold';src: url('webfonts/2D89AD_7_0.eot');src: url('webfonts/2D89AD_7_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2D89AD_7_0.woff2') format('woff2'),url('webfonts/2D89AD_7_0.woff') format('woff'),url('webfonts/2D89AD_7_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'PFCentroSerifPro-Regular';src: url('webfonts/2D89AD_8_0.eot');src: url('webfonts/2D89AD_8_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2D89AD_8_0.woff2') format('woff2'),url('webfonts/2D89AD_8_0.woff') format('woff'),url('webfonts/2D89AD_8_0.ttf') format('truetype');}
+ 
