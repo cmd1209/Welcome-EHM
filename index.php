@@ -14,8 +14,8 @@
 
 <div class="row">
     <div class="colL">
-        <h2>Adresse</h2>
     <div class="text-box">
+        <h2>Adresse</h2>
         <p>An der Untertrave 1<br>
         D-23552 Lübeck<br>
         +49 (0) 451 80 90 99-0 <br>
@@ -24,8 +24,8 @@
     </div>
     </div>
     <div class="colR">
-        <h2>Öffnungszeiten</h2>
         <div class="text-box">
+        <h2>Öffnungszeiten</h2>
         <p>Täglich geöffnet (außer Heiligabend)</p>
         <p>30. Mai – 29. Februar 2016  10.00 – 17.00 Uhr</p>
         <p>Ab März 2016:<br>
@@ -40,7 +40,7 @@ November– Februar 10.00 bis 17.00 Uhr <br>
 </div>
 <div class="row">
     <div class="colL">
-    <h2>Welt der Hanse-Ticket</h2>
+        <h4>Welt der Hanse-Ticket</h4>
     <dl>
         <dt>Erw./ Adult:</dt>
         <dd>€ 11,50</dd>
@@ -54,8 +54,8 @@ November– Februar 10.00 bis 17.00 Uhr <br>
 
     </div>
     <div class="colR">
-        <h2>Burgkloster-Ticket</h2>
-            <dl>
+        <h4>Burgkloster-Ticket</h4>
+    <dl>
         <dt>Erw./ Adult:</dt>
         <dd>€ 4,50</dd>
         <dt>Erm./ :Reduced:</dt>
@@ -66,8 +66,8 @@ November– Februar 10.00 bis 17.00 Uhr <br>
     </div>
 </div>
 <div class="row">
-        <h2>Kombi-Ticket Welt der Hanse & Burgkloster / Combination Ticket Welt der Hanse & Burgkloster</h2>
-            <dl>
+        <h4>Kombi-Ticket Welt der Hanse & Burgkloster / Combination Ticket Welt der Hanse & Burgkloster</h4>
+        <dl>
         <dt>Erw./ Adult:</dt>
         <dd>€ 14,50</dd>
         <dt>Erm./ :Reduced:</dt>

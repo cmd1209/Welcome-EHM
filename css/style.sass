@@ -38,6 +38,12 @@ h1
   font-size: $base-font-size*2.5
 h2
   margin-bottom: 1em
+h4
+  background-color: $primary-color
+  color: white
+  padding: 0.5em 0
+  border-radius: $base-border-radius $base-border-radius 0 0
+  font-size: 125%
 
 .wrap
   border-left: 2em solid $primary-color
@@ -92,7 +98,7 @@ section.hero
     background-color: $primary-color
     padding: 0 3em
     border-bottom: 3em solid darken($primary-color,5)
-    border-right: 3em solid $dark-color
+    border-right: 2em solid $dark-color
     h1, p
       color: white
     h1
@@ -114,19 +120,22 @@ dl
   margin: 0
   text-align: center
 dt
+  padding: 0.5em 0 0 0
   background-color: lighten($primary-background,10)
-  &:first-of-type
-    border-radius: $base-border-radius $base-border-radius 0 0
+  &:nth-of-type(2n)
+    background-color: lighten($primary-background,5)
 dd
-  background-color: lighten($primary-background,5)
-  font-size: 125%
-  padding: 0.5em 0
+  background-color: lighten($primary-background,10)
+  font-size: 150%
+  color: $primary-color
+  padding: 0 0 0.5em 0
   margin: 0
+  &:nth-of-type(2n)
+    background-color: lighten($primary-background,5)
   &:last-of-type
     border-radius: 0 0 $base-border-radius $base-border-radius
     margin: 0
     box-shadow: 0 6px 5px -5px $dark-color
-
 
 footer
   text-align: center
